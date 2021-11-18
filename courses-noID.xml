@@ -2,6 +2,55 @@
 
 <Course_Catalog>
 
+	<Department Code="SE">
+	<Title>System Engineering</Title>
+    
+    <Chair>
+      <Professor>
+        <First_Name>Oswaldo</First_Name>
+        <Last_Name>Castillo</Last_Name>
+      </Professor>    
+    </Chair>
+  
+    <Course Number="MBDA", Enrollment="20">
+      <Title>Modelos y Bases de Datos</Title>
+      <Description>Modelado, diseño y construccion de bases de datos relaciones.</Description>
+      <Instructors>
+        <Professor>
+			<First_Name>Laura</First_Name>
+			<Last_Name>Herrera</Last_Name>
+        </Professor>
+		<Professor>
+			<First_Name>Freddy</First_Name>
+			<Last_Name>Diaz</Last_Name>
+		</Professor>
+      </Instructors>
+	  <Prerequisites>
+        <Prereq>AYED</Prereq>
+		<Prereq>LCAT</Prereq>
+      </Prerequisites>
+    </Course>
+	
+	<Course Number="PRYE", Enrollment="27">
+      <Title>Probabilidad y Estadistica</Title>
+      <Description>Introduccion a la aplicacion de probabilidades en problemas reales.</Description>
+      <Instructors>
+        <Professor>
+          <First_Name>Hermilda</First_Name>
+          <Last_Name>Rondon</Last_Name>
+        </Professor>
+		<Professor>
+          <First_Name>Lida</First_Name>
+          <Last_Name>Buitrago</Last_Name>
+        </Professor>
+      </Instructors>
+	  <Prerequisites>
+        <Prereq>CALI</Prereq>
+      </Prerequisites>
+    </Course>
+	</Department>
+
+	
   <Department Code="CS">
     
     <Title>Computer Science</Title>
