@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<!DOCTYPE Condiciones [
+	<!ELEMENT Condiciones (tipoProtectores+)>
+	<!ELEMENT tipoProtector (#PCDATA)>
+	<!ATTLIST Condiciones nivelRuido CDATA #IMPLIED>
+]>
